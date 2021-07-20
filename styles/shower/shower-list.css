@@ -30,6 +30,7 @@
         calc(var(--slide-width) * var(--slide-scale))
     );
     background-color: var(--color-back);
+    overflow-x: hidden;
 }
 
 /* IE & Edge Fix */
