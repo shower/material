@@ -15,6 +15,7 @@
         var(--shower-list-block)
         var(--shower-list-inline);
 
+    overflow-x: hidden;
     box-sizing: border-box;
     width: 100%;
     display: grid;
@@ -30,7 +31,6 @@
         calc(var(--slide-width) * var(--slide-scale))
     );
     background-color: var(--color-back);
-    overflow-x: hidden;
 }
 
 /* IE & Edge Fix */
